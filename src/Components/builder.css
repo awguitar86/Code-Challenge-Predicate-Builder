@@ -1,0 +1,106 @@
+.builder-wrap {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: #ECEDED; }
+
+.top-body-wrap {
+  width: 95vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+header {
+  width: 100vw;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  header h2 {
+    width: 95vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: solid 2px lightgray;
+    color: #696F75;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600; }
+
+.builder-body {
+  width: 95vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start; }
+
+.row-item {
+  width: 95vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center; }
+  .row-item input {
+    width: 150px;
+    height: 25px;
+    padding: 5px;
+    font-size: 11pt;
+    outline: none;
+    border-radius: 4px;
+    border: none; }
+
+.first-select {
+  width: 200px;
+  margin-right: 20px;
+  text-align: left; }
+
+.second-select {
+  width: 200px;
+  margin-right: 20px;
+  text-align: left; }
+
+.and-btn-wrap {
+  margin-top: 30px; }
+  .and-btn-wrap button {
+    background: #2EB0DF;
+    color: white;
+    width: 80px;
+    height: 30px;
+    border: solid 1px #2EB0DF;
+    border-radius: 4px;
+    font-size: 11pt;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    cursor: pointer;
+    transition: ease-in-out 0.3s; }
+    .and-btn-wrap button:hover {
+      background: #67C5E7;
+      border: solid 1px #67C5E7; }
+    .and-btn-wrap button:active {
+      border: solid 1px #ECEDED; }
+
+footer {
+  width: 95vw;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 50px; }
+  footer button {
+    background: #2EB0DF;
+    color: white;
+    width: 150px;
+    height: 30px;
+    border: solid 1px #2EB0DF;
+    border-radius: 4px;
+    font-size: 11pt;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    cursor: pointer;
+    transition: ease-in-out 0.3s; }
+    footer button:hover {
+      background: #67C5E7;
+      border: solid 1px #67C5E7; }
+    footer button:active {
+      border: solid 1px #ECEDED; }
